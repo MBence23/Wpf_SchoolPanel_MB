@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_SchoolPanel_MB", "Wpf_SchoolPanel_MB\Wpf_SchoolPanel_MB.csproj", "{56691B27-7446-48CA-8BED-C0F63D2C5DAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SchoolPaper", "SchoolPaper", "{522F093A-B5C1-48C9-BB14-8AE0C8F7ED7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{A2ABE2F3-9CAA-4158-BF80-02ACF93934DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{FDE228C6-70CB-4229-BEC3-D05F535BB310}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{13DE64F6-0077-47E6-B4E0-2585A9549B1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{DF5F4E83-D18C-44A6-A7C2-A7D38E59E1A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "schoolpaper", "schoolpaper", "{1A2B3284-F24E-4C67-8D94-D847189A1608}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{EF6799AB-935C-45AE-A103-B041AB3B0127}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{DB40A58E-76EC-48BB-AD3D-15A7B8F3E430}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{E2E3039B-C2A9-43AB-B660-D531ABE6F1FD}"
+	ProjectSection(SolutionItems) = preProject
+		Wpf_SchoolPanel_MB\DataView.xaml = Wpf_SchoolPanel_MB\DataView.xaml
+		Wpf_SchoolPanel_MB\DataView.xaml.cs = Wpf_SchoolPanel_MB\DataView.xaml.cs
+		Wpf_SchoolPanel_MB\HomeView.xaml = Wpf_SchoolPanel_MB\HomeView.xaml
+		Wpf_SchoolPanel_MB\HomeView.xaml.cs = Wpf_SchoolPanel_MB\HomeView.xaml.cs
+		Wpf_SchoolPanel_MB\UsersView.xaml = Wpf_SchoolPanel_MB\UsersView.xaml
+		Wpf_SchoolPanel_MB\UsersView.xaml.cs = Wpf_SchoolPanel_MB\UsersView.xaml.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Viewmodel", "Viewmodel", "{D63EBF98-6353-47F9-B6D2-8253D386F60E}"
+	ProjectSection(SolutionItems) = preProject
+		Wpf_SchoolPanel_MB\MainViewModel.cs = Wpf_SchoolPanel_MB\MainViewModel.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56691B27-7446-48CA-8BED-C0F63D2C5DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56691B27-7446-48CA-8BED-C0F63D2C5DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56691B27-7446-48CA-8BED-C0F63D2C5DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56691B27-7446-48CA-8BED-C0F63D2C5DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2ABE2F3-9CAA-4158-BF80-02ACF93934DF} = {522F093A-B5C1-48C9-BB14-8AE0C8F7ED7E}
+		{FDE228C6-70CB-4229-BEC3-D05F535BB310} = {A2ABE2F3-9CAA-4158-BF80-02ACF93934DF}
+		{13DE64F6-0077-47E6-B4E0-2585A9549B1E} = {A2ABE2F3-9CAA-4158-BF80-02ACF93934DF}
+		{DF5F4E83-D18C-44A6-A7C2-A7D38E59E1A6} = {A2ABE2F3-9CAA-4158-BF80-02ACF93934DF}
+		{1A2B3284-F24E-4C67-8D94-D847189A1608} = {522F093A-B5C1-48C9-BB14-8AE0C8F7ED7E}
+		{EF6799AB-935C-45AE-A103-B041AB3B0127} = {1A2B3284-F24E-4C67-8D94-D847189A1608}
+		{DB40A58E-76EC-48BB-AD3D-15A7B8F3E430} = {1A2B3284-F24E-4C67-8D94-D847189A1608}
+		{E2E3039B-C2A9-43AB-B660-D531ABE6F1FD} = {1A2B3284-F24E-4C67-8D94-D847189A1608}
+		{D63EBF98-6353-47F9-B6D2-8253D386F60E} = {1A2B3284-F24E-4C67-8D94-D847189A1608}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AC89E61-2909-41AC-A030-75CE8558D605}
+	EndGlobalSection
+EndGlobal
